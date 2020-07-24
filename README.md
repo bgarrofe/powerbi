@@ -4,7 +4,7 @@
 Python 3
 
 ## Installation
-To install and run this proyect just type and execute
+To install and run this project just type and execute
 ```bash
 git clone https://github.com/bgarrofe/powerbi.git
 ```

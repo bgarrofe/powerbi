@@ -3,5 +3,3 @@ __pycache__
 .vscode
 env
 config.py
-test.py
-test2.py
