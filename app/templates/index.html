@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<!-- Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license.
+See LICENSE in the source repository root for complete license information. -->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PowerBI Code Generator</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.min.css') }}" />
+    </head>
+    <body>
+        <div class="container homepage-container">
+            <h1>Connect to PowerBI</h1>
+            <p>Click the button to authenticate</p>
+            <p><button type="button" class="btn btn-success btn-md" onclick="window.location.href='/login'">Connect</button></p>
+        </div>
+    </body>
+</html>

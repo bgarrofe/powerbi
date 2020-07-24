@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!-- Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license.
+See LICENSE in the source repository root for complete license information. -->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PowerBI Code Generator</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.min.css') }}" />
+    </head>
+    <body>
+        <div class="container homepage-container">
+            <h1>PowerBI Authentication Code</h1>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <label>Token</label>
+                        <textarea class="form-control" rows="3">{{ token }}</textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Refresh Token</label>
+                        <textarea class="form-control" rows="3">{{ refresh }}</textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
